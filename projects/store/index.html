@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пиццы</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Пиццы</a>
+        <a href="#">Комбо</a>
+        <a href="#">Закуски</a>
+        <a href="#">Завтрак</a>
+        <a href="#">Коктейли</a>
+        <a href="#">Кофе</a>
+        <a href="#">Напитки</a>
+        <a href="#">Десерты</a>
+        <a href="#">Любят дети</a>
+        <a href="#">Соусы</a>
+        <a href="#">Другие товары</a>
+        <a href="#">Акции</a>
+        <a></a>
+        <button id="openSidebar" class="btn">Корзина</button>
+    </div>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <img src="img/image1.png" alt="Бефстроганов">
+                <h3>Бефстроганов</h3>
+                <p>Пряная говядина, шампиньоны, ароматный грибной соус, маринованные огурчики, моцарелла, красный лук, фирменный соус альфредо</p>
+                <div class="price">549 ₽</div>
+                <label class="btn">
+                    <input type="checkbox" value="549" />
+                    <span>Выбрать</span>
+                </label>
+            </div>
+            <div class="card">
+                <img src="img/image2.png" alt="Мясная с аджикой">
+                <h3>Мясная с аджикой</h3>
+                <p>Баварские колбаски, острый соус аджика, острые колбаски чоризо, цыпленок, пикантная пепперони, моцарелла, фирменный томатный соус</p>
+                <div class="price">549 ₽</div>
+                <label class="btn">
+                    <input type="checkbox" value="549" />
+                    <span>Выбрать</span>
+                </label>
+            </div>
+            <div class="card">
+                <img src="img/image3.png" alt="Креветки со сладким чили">
+                <h3>Креветки со сладким чили</h3>
+                <p>Креветки, ананасы, соус сладкий чили, сладкий перец, моцарелла, фирменный соус альфредо</p>
+                <div class="price">589 ₽</div>
+                <label class="btn">
+                    <input type="checkbox" value="549"/>
+                    <span>Выбрать</span>
+                </label>
+            </div>
+            <div class="card">
+                <img src="img/image4.png" alt="Пицца из половинок">
+                <h3>Пицца из половинок</h3>
+                <p>Два вкуса в одной пицце 35 см</p>
+                <div class="price">720 ₽</div>
+                <label class="btn">
+                    <input type="checkbox" value="720" />
+                    <span>Выбрать</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="close-btn">&times;</button>
+        <div class="sidebar-content">
+            <h3 id="info_h3">Пока тут пусто</h3>
+            <ol id="info_ol">
+            </ol>
+            <h3 id="info_sum"></h3>
+            <button id="order" class="btn">Заказать</button>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
